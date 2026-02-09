@@ -1,5 +1,9 @@
-import Image from "next/image";
+import Navbar from "@/component/shared/Navbar";
 
 export default function Home() {
-  return <div className=''></div>;
+  return (
+    <div className=''>
+      <Navbar />
+    </div>
+  );
 }
