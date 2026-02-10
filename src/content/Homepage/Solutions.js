@@ -1,6 +1,6 @@
-import image1 from "/solution/solutions1.jpg";
-import image2 from "/solution/solutions2.jpg";
-import image3 from "/solution/solutions3.jpg";
+import image1 from "../../../public/solution/solutions1.jpg";
+import image2 from "../../../public/solution/solutions2.jpg";
+import image3 from "../../../public/solution/solutions3.jpg";
 export const solution = {
   title: "Our Solutions",
   subtitle:
@@ -20,7 +20,7 @@ export const solutionItem = [
   },
   {
     title: "Coverage Package Through",
-    image: image2,
+    image: image3,
     description: "",
   },
 ];
