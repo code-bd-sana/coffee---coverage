@@ -4,7 +4,7 @@ import planetImage from "../../../public/plan/planet.jpg";
 
 const Planet = () => {
   return (
-    <section className='relative w-full px-16 h-[500px] flex items-center justify-center overflow-hidden'>
+    <section className='relative w-full h-auto md:h-[500px] px-4 md:px-16 py-12 md:py-0 flex items-center justify-center overflow-hidden'>
       {/* Background Image */}
       <Image
         src={planetImage}
@@ -14,15 +14,28 @@ const Planet = () => {
         className='object-cover absolute inset-0 -z-10'
       />
 
-      {/* Overlay (optional but recommended) */}
+      {/* Overlay */}
+      <div className='absolute inset-0 bg-black/40 -z-10' />
 
-      {/* Content */}
-      <div className='relative z-10 bg-white space-y-8  w-[1080px] py-16 px-16 text-center text-white px-4'>
-        <h1 className='title-primary'>{planet.title}</h1>
-        <p className='color-primary text-lg max-w-[800px] mx-auto'>
+      {/* Content Card */}
+      <div
+        className='
+          relative z-10
+          bg-white
+          w-full max-w-[1080px]
+          px-6 md:px-16
+          py-10 md:py-16
+          text-center
+          rounded-2xl
+          shadow-xl
+        '>
+        <h1 className='title-primary text-gray-900'>{planet.title}</h1>
+
+        <p className='text-primary text-gray-600 max-w-[800px] mx-auto mt-4'>
           {planet.subttile}
         </p>
-        <button className='button-primary'>Learn More</button>
+
+        <button className='button-primary mt-6'>Learn More</button>
       </div>
     </section>
   );
