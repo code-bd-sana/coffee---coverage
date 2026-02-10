@@ -1,4 +1,4 @@
-import image from "/faq/faq.png";
+import image from "../../../public/faq/faq.jpg";
 export const faq = {
   title1: "Frequently Asked ",
   title2: "Questions",
@@ -6,7 +6,7 @@ export const faq = {
   image: image,
 };
 
-const faqItem = [
+export const faqItem = [
   {
     title: "What makes us unique among insurance brokers?",
     description:
