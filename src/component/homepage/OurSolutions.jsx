@@ -1,4 +1,5 @@
-import { solution } from "@/content/Homepage/Solutions";
+import { solution, solutionItem } from "@/content/Homepage/Solutions";
+import Image from "next/image";
 
 const OurSolutions = () => {
   return (
@@ -11,7 +12,13 @@ const OurSolutions = () => {
           {solution.subtitle}
         </p>
 
-        {/* solutio */}
+        {/* solution Card */}
+
+        {solutionItem.map((item, idx) => (
+          <div key={idx + 1}>
+            <Image src={item.image} alt={item.title} />
+          </div>
+        ))}
       </section>
     </div>
   );

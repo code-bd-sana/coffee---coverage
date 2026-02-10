@@ -8,19 +8,20 @@ export const solution = {
 };
 export const solutionItem = [
   {
-    title: "Business Insurance Solutions",
-    image: image1,
-    description: "",
-  },
-  {
     title: "Personal Insurance Solutions",
-    image: image2,
+    image: image3,
     description:
       "Consultations designed to understand the nuances of your lifestyle, assets, and aspirations-delivering tailored insurance solutions that align seamlessly with your financial and personal priorities.",
   },
   {
+    title: "Business Insurance Solutions",
+    image: image1,
+    description: "",
+  },
+
+  {
     title: "Coverage Package Through",
-    image: image3,
+    image: image2,
     description: "",
   },
 ];
