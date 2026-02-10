@@ -25,14 +25,17 @@ const Banner = () => {
         <h1 className='banner-title'>{banner.title}</h1>
 
         <div className='mt-auto  pb-32'>
-          <button className='banner-button mb-12 items-center gap-4 flex '>
-            {banner.buttonText}
+          <button className='relative banner-button mb-12 flex items-center gap-4 overflow-hidden'>
+            {/* Rotating ring */}
+            <span className='absolute inset-[-6px] rounded-full border-2 border-dashed border-yellow-400 animate-spin-slow' />
 
-            <span className='text-sm'>
-              {" "}
-              <FaArrowRight />{" "}
+            {/* Button content */}
+            <span className='relative z-10 flex items-center gap-4'>
+              {banner.buttonText}
+              <FaArrowRight className='text-sm' />
             </span>
           </button>
+
           <p className='banner-text'>{banner.subtitle}</p>
         </div>
 
