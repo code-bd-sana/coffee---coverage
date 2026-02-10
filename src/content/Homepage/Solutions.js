@@ -9,13 +9,13 @@ export const solution = {
 export const solutionItem = [
   {
     title: "Personal Insurance Solutions",
-    image: image3,
+    image: image1,
     description:
       "Consultations designed to understand the nuances of your lifestyle, assets, and aspirations-delivering tailored insurance solutions that align seamlessly with your financial and personal priorities.",
   },
   {
     title: "Business Insurance Solutions",
-    image: image1,
+    image: image3,
     description: "",
   },
 
