@@ -1,3 +1,4 @@
+import AgentReview from "@/component/homepage/AgentReview";
 import Banner from "@/component/homepage/Banner";
 import OurSolutions from "@/component/homepage/OurSolutions";
 import Planet from "@/component/homepage/Planet";
@@ -11,6 +12,7 @@ export default function Home() {
       <OurSolutions />
       <Plans />
       <Planet />
+      <AgentReview />
     </div>
   );
 }
