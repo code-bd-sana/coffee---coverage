@@ -56,4 +56,7 @@ body {
   .banner-button {
     @apply bg-[#FFFFFF]   text-[#633826] px-6 py-2 text-sm whitespace-nowrap md:text-[20px] rounded-2xl;
   }
+  .button-primary {
+    @apply bg-[#633826] cursor-pointer px-8 py-3 rounded-xl text-white;
+  }
 }
