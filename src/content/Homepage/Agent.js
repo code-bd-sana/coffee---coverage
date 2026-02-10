@@ -1,5 +1,5 @@
-import image from "/agent/agent.png";
-const agent = {
+import image from "../../../public/agent/agent.jpg";
+export const agent = {
   title: "Exceptional Service,",
   title2: "Every Time",
   review:
