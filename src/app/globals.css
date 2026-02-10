@@ -1,1 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import "tailwindcss";
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+@layer components {
+  /* ===== TITLES ===== */
+
+  .title-primary {
+    @apply text-[40px] text-white md:text-[48px] font-bold leading-tight;
+  }
+
+  .title-secondary {
+    @apply text-[32px] font-semibold leading-snug;
+  }
+
+  .text-lead {
+    @apply text-[24px] font-semibold;
+  }
+
+  /* ===== TEXT ===== */
+
+  .text-primary {
+    @apply text-[20px] md:text-[24px] leading-relaxed;
+  }
+
+  .text-secondary {
+    @apply text-[14px] leading-relaxed text-gray-600;
+  }
+
+  .color-primary {
+    @apply text-[#633826];
+  }
+  .color-secondary {
+    @apply text-[#2B2B2B];
+  }
+
+  .color-gray {
+    @apply text-[#222222A8];
+  }
+
+  /* ===== BANNER VARIANT ===== */
+
+  .banner-title {
+    @apply text-[40px] text-white md:text-[64px]  font-bold leading-tight;
+  }
+
+  .banner-text {
+    @apply text-[16px] text-[#FFFFFF]  md:text-[20px] leading-tight;
+  }
+
+  .banner-button {
+    @apply bg-[#FFFFFF]   text-[#633826] px-6 py-2 text-sm whitespace-nowrap md:text-[20px] rounded-2xl;
+  }
+}

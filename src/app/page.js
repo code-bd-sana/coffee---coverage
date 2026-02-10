@@ -1,9 +1,10 @@
-import Navbar from "@/component/shared/Navbar";
+import Banner from "@/component/homepage/Banner";
 
 export default function Home() {
   return (
     <div className=''>
-      <Navbar />
+      {/* <Navbar /> */}
+      <Banner />
     </div>
   );
 }
