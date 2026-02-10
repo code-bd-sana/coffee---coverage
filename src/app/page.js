@@ -4,6 +4,7 @@ import Faq from "@/component/homepage/Faq";
 import OurSolutions from "@/component/homepage/OurSolutions";
 import Planet from "@/component/homepage/Planet";
 import Plans from "@/component/homepage/Plans";
+import QASection from "@/component/homepage/QA";
 import Testimonials from "@/component/homepage/Testimonials";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <AgentReview />
       <Testimonials />
       <Faq />
+      <QASection />
     </div>
   );
 }
