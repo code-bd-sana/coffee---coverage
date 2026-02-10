@@ -9,7 +9,7 @@ body {
   /* ===== TITLES ===== */
 
   .title-primary {
-    @apply text-[40px] text-white md:text-[48px] font-bold leading-tight;
+    @apply text-[30px]  text-black md:text-[40px] font-bold leading-tight;
   }
 
   .title-secondary {
@@ -23,7 +23,7 @@ body {
   /* ===== TEXT ===== */
 
   .text-primary {
-    @apply text-[20px] md:text-[24px] leading-relaxed;
+    @apply text-[16px] md:text-[20px] leading-relaxed;
   }
 
   .text-secondary {

@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Banner = () => {
   return (
-    <div className='relative  max-w-7xl mx-auto lg:rounded-xl max-h-[700px] mt-16 mx-16 h-screen overflow-hidden'>
+    <div className='relative  max-w-7xl md:mx-auto lg:rounded-xl max-h-[700px] mt-16 mx-16 h-screen overflow-hidden'>
       {/* Background Video */}
       <video
         className='absolute inset-0 w-full h-full object-cover'
