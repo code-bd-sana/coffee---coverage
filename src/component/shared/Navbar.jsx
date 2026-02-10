@@ -1,5 +1,7 @@
 import { navbar } from "@/content/Homepage/Navbar.js";
+import Image from "next/image";
 import Link from "next/link";
+import logo from "../../../public/ff.png";
 
 const Navbar = () => {
   return (
@@ -8,7 +10,7 @@ const Navbar = () => {
         <Link
           href='/'
           className='text-lg font-semibold tracking-tight text-black'>
-          KodoMia
+          <Image src={logo} alt='logo' className='' />
         </Link>
 
         <ul className='hidden items-center gap-6 text-sm font-medium text-black/80 md:flex'>

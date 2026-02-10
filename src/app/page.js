@@ -6,11 +6,13 @@ import Planet from "@/component/homepage/Planet";
 import Plans from "@/component/homepage/Plans";
 import QASection from "@/component/homepage/QA";
 import Testimonials from "@/component/homepage/Testimonials";
+import Footer from "@/component/shared/Footer";
+import Navbar from "@/component/shared/Navbar";
 
 export default function Home() {
   return (
     <div className=''>
-      {/* <Navbar /> */}
+      <Navbar />
       <Banner />
       <OurSolutions />
       <Plans />
@@ -19,6 +21,7 @@ export default function Home() {
       <Testimonials />
       <Faq />
       <QASection />
+      <Footer />
     </div>
   );
 }
