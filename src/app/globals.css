@@ -40,7 +40,9 @@ body {
   .color-gray {
     @apply text-[#222222A8];
   }
-
+  .color-lead {
+    @apply text-[#1A4E5A];
+  }
   /* ===== BANNER VARIANT ===== */
 
   .banner-title {
