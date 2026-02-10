@@ -5,7 +5,7 @@ import image2 from "../../../public/plan/plan2.jpg";
 
 const Plans = () => {
   return (
-    <section className='max-w-7xl mx-auto mt-44 px-4 md:px-0 flex flex-col md:flex-row items-center gap-8'>
+    <section className='max-w-7xl mx-auto mt-44 px-4 md:px-0 md:flex flex-col md:flex-row items-center gap-8'>
       {/* Text Section */}
       <div className='flex-1 space-y-6 md:pr-8'>
         <h1 className='title-primary leading-tight'>
@@ -18,7 +18,7 @@ const Plans = () => {
       </div>
 
       {/* Image Section */}
-      <div className='flex-1 relative w-full h-[400px] md:h-[450px]'>
+      <div className='flex-1 mt-28 ml-6  md:mt-0 md:ml-0 relative w-full h-[400px] md:h-[450px]'>
         {/* Bottom Image */}
         <div className='absolute -top-16 left-8 w-4/5 h-5/6 shadow-lg rounded-xl overflow-hidden'>
           <Image src={image2} alt='Plan 2' fill className='object-cover' />
