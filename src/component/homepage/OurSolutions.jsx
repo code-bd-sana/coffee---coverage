@@ -4,7 +4,7 @@ import { TfiArrowCircleDown } from "react-icons/tfi";
 
 const OurSolutions = () => {
   return (
-    <section className='text-center mt-12 px-4 md:px-0'>
+    <section className='text-center  mt-12 px-4 md:px-0'>
       {/* Heading */}
       <h1 className='title-primary'>{solution.title}</h1>
       <p className='text-primary text-lg max-w-2xl mx-auto mt-2'>
@@ -12,7 +12,7 @@ const OurSolutions = () => {
       </p>
 
       {/* Solution Cards */}
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 max-w-7xl mx-auto'>
+      <div className='grid px-2 grid-cols-1 md:grid-cols-3 gap-6 mt-12 max-w-7xl mx-auto'>
         {solutionItem.map((item, idx) => (
           <div
             key={idx}

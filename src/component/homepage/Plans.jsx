@@ -5,9 +5,9 @@ import image2 from "../../../public/plan/plan2.jpg";
 
 const Plans = () => {
   return (
-    <section className='max-w-7xl mx-auto mt-44 px-4 md:px-0 md:flex flex-col md:flex-row items-center gap-8'>
+    <section className='max-w-7xl  mx-auto mt-44 px-4 md:px-0 md:flex flex-col md:flex-row items-center gap-8'>
       {/* Text Section */}
-      <div className='flex-1 space-y-6 md:pr-8'>
+      <div className='flex-1 px-4 space-y-6 md:pr-8'>
         <h1 className='title-primary leading-tight'>
           Custom Business <span className='color-lead'>Insurance</span> Plans
         </h1>
