@@ -1,4 +1,4 @@
-import image1 from "/testomonial/testimonial.jpg";
+import image1 from "../../../public/testimonial/testimonial.jpg";
 
 export const testimonials = {
   title: "Testimonials",

@@ -3,6 +3,7 @@ import Banner from "@/component/homepage/Banner";
 import OurSolutions from "@/component/homepage/OurSolutions";
 import Planet from "@/component/homepage/Planet";
 import Plans from "@/component/homepage/Plans";
+import Testimonials from "@/component/homepage/Testimonials";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Plans />
       <Planet />
       <AgentReview />
+      <Testimonials />
     </div>
   );
 }
