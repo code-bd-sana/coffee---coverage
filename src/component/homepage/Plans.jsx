@@ -8,10 +8,11 @@ const Plans = () => {
     <section className='max-w-7xl  mx-auto mt-44 px-4 md:px-0 md:flex flex-col md:flex-row items-center gap-8'>
       {/* Text Section */}
       <div className='flex-1 px-4 space-y-6 md:pr-8'>
-        <h1 className='title-primary leading-tight'>
+        <h1 data-aos="fade-right" className='title-primary leading-tight'>
           Custom Business <span className='color-lead'>Insurance</span> Plans
         </h1>
-        <p className='color-gray  '>{plans.subtitle}</p>
+        <p data-aos="fade-up"
+     data-aos-duration="2000" className='color-gray  '>{plans.subtitle}</p>
         <button className='button-primary mt-4 px-6 py-2 rounded-lg'>
           Read More
         </button>

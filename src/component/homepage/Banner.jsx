@@ -22,10 +22,10 @@ const Banner = () => {
         className='relative  mt-12  z-10 flex flex-col items-
         h-full px-8  md:px-12 md:max-w-2/3'>
         {/* Hero Title */}
-        <h1 className='banner-title'>{banner.title}</h1>
+        <h1 data-aos="fade-right" className='banner-title'>{banner.title}</h1>
 
         <div className='mt-auto  pb-32'>
-          <button className='banner-button mb-12 items-center gap-4 flex '>
+          <button data-aos="fade-down" className='banner-button mb-12 items-center gap-4 flex '>
             {banner.buttonText}
 
             <span className='text-sm'>
@@ -33,7 +33,8 @@ const Banner = () => {
               <FaArrowRight />{" "}
             </span>
           </button>
-          <p className='banner-text'>{banner.subtitle}</p>
+          <p  data-aos="fade-up"
+     data-aos-duration="2000" className='banner-text'>{banner.subtitle}</p>
         </div>
 
         {/* button */}
