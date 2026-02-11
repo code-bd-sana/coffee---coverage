@@ -15,11 +15,11 @@ const Footer = () => {
           "linear-gradient(90deg, #0E323B 0%, #1A5766 74.04%, #1A4E5A 86.06%)",
       }}
     >
-      <div className='max-w-7xl mx-auto px-6 lg:px-16 py-16 grid grid-cols-1 md:grid-cols-3 gap-12'>
+      <div className='max-w-5xl mx-auto px-6 lg:px-16 py-16 grid grid-cols-1 md:grid-cols-3 gap-12'>
         
         {/* LEFT */}
         <div className='space-y-6'>
-          <Image src={footerLogo} alt='logo' />
+          <Image src={footerLogo} alt='logo' className="w-[136px] h-[54px]"/>
 
           <div className='flex items-center gap-4'>
             {footerIcon.map((item, idx) => (
@@ -79,9 +79,9 @@ const Footer = () => {
       </div>
 
       {/* Bottom bar */}
-      <div className='border-t border-white/20 py-4 text-center text-sm text-gray-300'>
+      {/* <div className='border-t border-white/20 py-4 text-center text-sm text-gray-300'>
         © {new Date().getFullYear()} Coffee Coverage. All rights reserved.
-      </div>
+      </div> */}
     </footer>
   );
 };
