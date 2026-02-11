@@ -34,7 +34,7 @@ const Banner = () => {
             </span>
           </button>
           <p  data-aos="fade-up"
-     data-aos-duration="3000" className='banner-text'>{banner.subtitle}</p>
+     data-aos-duration="2000" className='banner-text'>{banner.subtitle}</p>
         </div>
 
         {/* button */}
