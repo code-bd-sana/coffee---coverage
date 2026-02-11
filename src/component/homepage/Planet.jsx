@@ -29,9 +29,10 @@ const Planet = () => {
           rounded-2xl
           shadow-xl
         '>
-        <h1 className='title-primary text-gray-900'>{planet.title}</h1>
+        <h1 data-aos="fade-right" className='title-primary text-gray-900'>{planet.title}</h1>
 
-        <p className='text-primary text-gray-600 max-w-[800px] mx-auto mt-4'>
+        <p data-aos="fade-up"
+     data-aos-duration="2000" className='text-primary text-gray-600 max-w-[800px] mx-auto mt-4'>
           {planet.subttile}
         </p>
 
