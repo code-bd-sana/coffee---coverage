@@ -6,11 +6,12 @@ const Testimonials = () => {
     <div className='py-16  max-w-7xl mx-auto'>
       {/* Title */}
       <div className='p-6 text-center mx-auto'>
-        <h2 className='title-secondary text-center font-semibold'>
+        <h2 data-aos="fade-right" className='title-secondary text-center font-semibold'>
           {testimonials.title}
         </h2>
 
-        <p className='color-secondary max-w-[600px] mx-auto text-center mt-4 text-base md:text-lg'>
+        <p data-aos="fade-up"
+     data-aos-duration="2000" className='color-secondary max-w-[600px] mx-auto text-center mt-4 text-base md:text-lg'>
           {testimonials.description}
         </p>
       </div>
