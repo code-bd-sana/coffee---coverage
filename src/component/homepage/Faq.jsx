@@ -16,10 +16,11 @@ const Faq = () => {
     <div className='py-16 px-4 md:px-10 lg:px-20 max-w-[1400px] mx-auto'>
       {/* Title Section */}
       <div className='text-center mb-12'>
-        <h2 className='title-primary'>
+        <h2 data-aos="fade-right" className='title-primary'>
           {faq.title1} <span className='color-primary'>{faq.title2}</span>
         </h2>
-        <p className='text-secondary color-primary mt-3 max-w-[600px] mx-auto'>
+        <p data-aos="fade-up"
+     data-aos-duration="2000" className='text-secondary color-primary mt-3 max-w-[600px] mx-auto'>
           {faq.subtitle}
         </p>
       </div>
