@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Banner = () => {
   return (
-    <div className='relative  max-w-7xl mx-auto lg:rounded-xl max-h-[700px] mt-16 mx-16 h-screen overflow-hidden'>
+    <div className='relative  max-w-7xl mx-auto lg:rounded-xl max-h-[700px] mt-8 mx-16 h-screen overflow-hidden'>
       {/* Background Video */}
       <video
         className='absolute inset-0 w-full h-full object-cover'
@@ -22,21 +22,27 @@ const Banner = () => {
         className='relative  mt-12  z-10 flex flex-col items-
         h-full px-8  md:px-12 md:max-w-2/3'>
         {/* Hero Title */}
-        <h1 className='banner-title'>{banner.title}</h1>
+        <h1 data-aos='fade-right' className='banner-title'>
+          {banner.title}
+        </h1>
 
         <div className='mt-auto  pb-32'>
-          <button className='relative banner-button mb-12 flex items-center gap-4 overflow-hidden'>
-            {/* Rotating ring */}
-            <span className='absolute inset-[-6px] rounded-full border-2 border-dashed border-yellow-400 animate-spin-slow' />
+          <button
+            data-aos='fade-down'
+            className='banner-button mb-12 items-center gap-4 flex '>
+            {banner.buttonText}
 
-            {/* Button content */}
-            <span className='relative z-10 flex items-center gap-4'>
-              {banner.buttonText}
-              <FaArrowRight className='text-sm' />
+            <span className='text-sm'>
+              {" "}
+              <FaArrowRight />{" "}
             </span>
           </button>
-
-          <p className='banner-text'>{banner.subtitle}</p>
+          <p
+            data-aos='fade-up'
+            data-aos-duration='2000'
+            className='banner-text'>
+            {banner.subtitle}
+          </p>
         </div>
 
         {/* button */}

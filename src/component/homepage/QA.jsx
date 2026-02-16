@@ -31,10 +31,11 @@ const QASection = () => {
           shadow-xl
         '>
         {/* Title */}
-        <h1 className='title-primary text-gray-900'>{qa.title}</h1>
+        <h1 data-aos="fade-right" className='title-primary text-gray-900'>{qa.title}</h1>
 
         {/* Subtitle */}
-        <p className='text-primary color-primary max-w-[800px] mx-auto mt-4'>
+        <p data-aos="fade-up"
+     data-aos-duration="2000" className='text-primary color-primary max-w-[800px] mx-auto mt-4'>
           {qa.subtitle}
         </p>
 

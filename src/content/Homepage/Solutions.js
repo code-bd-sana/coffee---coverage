@@ -16,12 +16,14 @@ export const solutionItem = [
   {
     title: "Business Insurance Solutions",
     image: image3,
-    description: "",
+    description:
+      "Consultations designed to understand the nuances of your lifestyle, assets, and aspirations-delivering tailored insurance solutions that align seamlessly with your financial and personal priorities.",
   },
 
   {
     title: "Coverage Package Through",
     image: image2,
-    description: "",
+    description:
+      "Consultations designed to understand the nuances of your lifestyle, assets, and aspirations-delivering tailored insurance solutions that align seamlessly with your financial and personal priorities.",
   },
 ];

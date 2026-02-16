@@ -10,12 +10,13 @@ const AgentReview = () => {
 
       <section className='mt-8 lg:mt-0'>
         <p className='color-gray font-semibold'>Your Agent</p>
-        <h1 className='title-primary leading-tight'>
+        <h1  data-aos="fade-right" className='title-primary leading-tight'>
           Exceptional Service,{" "}
           <span className='color-lead'>Every Time</span>{" "}
         </h1>
 
-        <p className='color-gray italic mt-4'>{agent.review}</p>
+        <p data-aos="fade-up"
+     data-aos-duration="2000" className='color-gray italic mt-4'>{agent.review}</p>
       </section>
     </div>
   );
