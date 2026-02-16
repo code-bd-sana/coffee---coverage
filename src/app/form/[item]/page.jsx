@@ -1,15 +1,103 @@
 "use client";
+import UnivarsalForm from "@/component/form/ui/UnivarsalForm";
 import { useParams } from "next/navigation";
-import React from "react";
 
 const page = () => {
   const params = useParams();
   const item = params.item;
   console.log(item, "eita ekta item");
+  const config = [
+    {
+      title: "Contact Details",
+      description: "Fill in your contact info",
+      fields: [
+        { type: "text", name: "email", placeholder: "Email" },
+        { type: "text", name: "phone", placeholder: "Phone Number" },
+        {
+          type: "radio",
+          name: "gender",
+          options: [
+            { label: "Male", value: "male" },
+            { label: "Female", value: "female" },
+          ],
+        },
+        {
+          type: "select",
+          name: "country",
+          placeholder: "Country",
+          options: [
+            { label: "USA", value: "usa" },
+            { label: "UK", value: "uk" },
+            { label: "Bangladesh", value: "bd" },
+          ],
+        },
+        { type: "date", name: "dob" },
+        { type: "file", name: "resume" },
+      ],
+    },
+    {
+      title: "Contact Details",
+      description: "Fill in your contact info",
+      fields: [
+        { type: "text", name: "email", placeholder: "Email" },
+        { type: "text", name: "phone", placeholder: "Phone Number" },
+        {
+          type: "radio",
+          name: "gender",
+          options: [
+            { label: "Male", value: "male" },
+            { label: "Female", value: "female" },
+          ],
+        },
+        {
+          type: "select",
+          name: "country",
+          placeholder: "Country",
+          options: [
+            { label: "USA", value: "usa" },
+            { label: "UK", value: "uk" },
+            { label: "Bangladesh", value: "bd" },
+          ],
+        },
+        { type: "date", name: "dob" },
+        { type: "file", name: "resume" },
+      ],
+    },
+    {
+      title: "Contact Details",
+      description: "Fill in your contact info",
+      fields: [
+        { type: "text", name: "email", placeholder: "Email" },
+        { type: "text", name: "phone", placeholder: "Phone Number" },
+        {
+          type: "radio",
+          name: "gender",
+          options: [
+            { label: "Male", value: "male" },
+            { label: "Female", value: "female" },
+          ],
+        },
+        {
+          type: "select",
+          name: "country",
+          placeholder: "Country",
+          options: [
+            { label: "USA", value: "usa" },
+            { label: "UK", value: "uk" },
+            { label: "Bangladesh", value: "bd" },
+          ],
+        },
+        { type: "date", name: "dob" },
+        { type: "file", name: "resume" },
+      ],
+    },
+  ];
 
   return (
     <div>
-      <h1>sawar form</h1>
+      <h1>
+        <UnivarsalForm config={config} />
+      </h1>
     </div>
   );
 };
