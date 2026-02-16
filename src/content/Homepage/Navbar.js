@@ -61,7 +61,7 @@ export const navbar = [
             {/* CTA */}
             <div className='mt-14'>
               <Link
-                href='/'
+                href='/form/property'
                 className='group inline-flex items-center gap-3 border-b border-black text-[16px] font-medium text-[#2B2B2B] pb-1'>
                 Start Your Journey Now
                 <span className='transition-transform duration-300 group-hover:translate-x-1'>
@@ -125,7 +125,7 @@ export const navbar = [
             {/* CTA */}
             <div className='mt-14'>
               <Link
-                href='/'
+                href='/form/auto'
                 className='group inline-flex items-center gap-3 border-b border-black text-[16px] font-medium text-[#2B2B2B] pb-1'>
                 Start Your Journey Now
                 <span className='transition-transform duration-300 group-hover:translate-x-1'>
@@ -185,7 +185,7 @@ export const navbar = [
             {/* CTA */}
             <div className='mt-14'>
               <Link
-                href='/'
+                href='/form/boat'
                 className='group inline-flex items-center gap-3 border-b border-black text-[16px] font-medium text-[#2B2B2B] pb-1'>
                 Start Your Journey Now
                 <span className='transition-transform duration-300 group-hover:translate-x-1'>
@@ -247,7 +247,7 @@ export const navbar = [
             {/* CTA */}
             <div className='mt-14'>
               <Link
-                href='/'
+                href='/form/condos'
                 className='group inline-flex items-center gap-3 border-b border-black text-[16px] font-medium text-[#2B2B2B] pb-1'>
                 Start Your Journey Now
                 <span className='transition-transform duration-300 group-hover:translate-x-1'>
@@ -308,7 +308,7 @@ export const navbar = [
             {/* CTA */}
             <div className='mt-14'>
               <Link
-                href='/'
+                href='/form/renters'
                 className='group inline-flex items-center gap-3 border-b border-black text-[16px] font-medium text-[#2B2B2B] pb-1'>
                 Start Your Journey Now
                 <span className='transition-transform duration-300 group-hover:translate-x-1'>
@@ -372,7 +372,7 @@ export const navbar = [
             {/* CTA */}
             <div className='mt-14'>
               <Link
-                href='/'
+                href='/form/life'
                 className='group inline-flex items-center gap-3 border-b border-black text-[16px] font-medium text-[#2B2B2B] pb-1'>
                 Start Your Journey Now
                 <span className='transition-transform duration-300 group-hover:translate-x-1'>
@@ -454,7 +454,7 @@ export const navbar = [
             {/* CTA */}
             <div className='mt-14'>
               <Link
-                href='/'
+                href='/form/general'
                 className='group inline-flex items-center gap-3 border-b border-black text-[16px] font-medium text-[#2B2B2B] pb-1'>
                 Start Your Journey Now
                 <span className='transition-transform duration-300 group-hover:translate-x-1'>
@@ -525,7 +525,7 @@ export const navbar = [
             {/* CTA */}
             <div className='mt-14'>
               <Link
-                href='/'
+                href='/form/workers'
                 className='group inline-flex items-center gap-3 border-b border-black text-[16px] font-medium text-[#2B2B2B] pb-1'>
                 Start Your Journey Now
                 <span className='transition-transform duration-300 group-hover:translate-x-1'>
@@ -590,7 +590,7 @@ export const navbar = [
             {/* CTA */}
             <div className='mt-14'>
               <Link
-                href='/'
+                href='/form/commercial'
                 className='group inline-flex items-center gap-3 border-b border-black text-[16px] font-medium text-[#2B2B2B] pb-1'>
                 Start Your Journey Now
                 <span className='transition-transform duration-300 group-hover:translate-x-1'>
@@ -657,7 +657,7 @@ export const navbar = [
             {/* CTA */}
             <div className='mt-14'>
               <Link
-                href='/'
+                href='/form/commercial-autoondos'
                 className='group inline-flex items-center gap-3 border-b border-black text-[16px] font-medium text-[#2B2B2B] pb-1'>
                 Start Your Journey Now
                 <span className='transition-transform duration-300 group-hover:translate-x-1'>
@@ -722,7 +722,7 @@ export const navbar = [
             {/* CTA */}
             <div className='mt-14'>
               <Link
-                href='/'
+                href='/form/professional'
                 className='group inline-flex items-center gap-3 border-b border-black text-[16px] font-medium text-[#2B2B2B] pb-1'>
                 Start Your Journey Now
                 <span className='transition-transform duration-300 group-hover:translate-x-1'>
@@ -786,7 +786,7 @@ export const navbar = [
             {/* CTA */}
             <div className='mt-14'>
               <Link
-                href='/'
+                href='/form/cyber'
                 className='group inline-flex items-center gap-3 border-b border-black text-[16px] font-medium text-[#2B2B2B] pb-1'>
                 Start Your Journey Now
                 <span className='transition-transform duration-300 group-hover:translate-x-1'>
@@ -850,7 +850,7 @@ export const navbar = [
             {/* CTA */}
             <div className='mt-14'>
               <Link
-                href='/'
+                href='/form/directors'
                 className='group inline-flex items-center gap-3 border-b border-black text-[16px] font-medium text-[#2B2B2B] pb-1'>
                 Start Your Journey Now
                 <span className='transition-transform duration-300 group-hover:translate-x-1'>
