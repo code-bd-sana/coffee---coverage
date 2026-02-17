@@ -1,4 +1,5 @@
 "use client";
+import { propertyConfig } from "@/component/form/configs/individual&families/propertyInsurance";
 import UnivarsalForm from "@/component/form/ui/UnivarsalForm";
 import { useParams } from "next/navigation";
 
@@ -6,6 +7,7 @@ const page = () => {
   const params = useParams();
   const item = params.item;
   console.log(item, "eita ekta item");
+
   const config = [
     {
       title: "Contact Details",
@@ -96,7 +98,7 @@ const page = () => {
   return (
     <div>
       <h1>
-        <UnivarsalForm config={config} />
+        <UnivarsalForm config={propertyConfig} />
       </h1>
     </div>
   );
